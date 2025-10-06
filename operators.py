@@ -36,3 +36,17 @@ fun main() {
     println("x = ${x--}") // post-increment
     println("x = ${--x}") // pre-decrement
 }
+
+
+// if conditions 
+
+fun main(){
+    val myNumber = 200
+    if(myNumber >= 150) {
+        println("Greater than 150")
+    }else if (myNumber >= 90){
+        println("Greater than 90")
+    }else {
+        println("All the conditions failed")
+    }
+}
