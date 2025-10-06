@@ -95,6 +95,12 @@ fun main() {
     println(d)  // Output: 3.14159265359 → keeps more digits
 
 }
+// Boolean and character
+fun main() {
+   val myNumber = 'd'
+   val myBoolean = false 
+    println("$myNumber $myBoolean")
+}
 
 
 
