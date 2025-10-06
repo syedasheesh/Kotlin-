@@ -82,5 +82,19 @@ fun main() {
     // Shows how an Int value looks in binary (32 bits)
     val binary22 = Integer.toBinaryString(22).padStart(32, '0')
     println("Number 22 in 32-bit binary: $binary22")
+
+    /*Rule of thumb:
+
+     Float → less precise, uses less memory
+
+     Double → more precise, uses more memory*/
+    val f: Float = 3.14159265359F
+    println(f)  // Output: 3.1415927 → loses some digits
+
+    val d: Double = 3.14159265359
+    println(d)  // Output: 3.14159265359 → keeps more digits
+
 }
+
+
 
